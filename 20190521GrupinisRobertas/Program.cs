@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _20190521GrupinisRobertas
 {
-    interface IDuombaze
+    public interface IDuombaze
     {
         void GautiDuomenis(); // Gauna duomenis is DB
         void SiustiDuomenis();// Siuncia i DB
@@ -19,9 +19,6 @@ namespace _20190521GrupinisRobertas
         void SiustiDuomenis();// Siuncia i DB
         void DuomenuTipas();// 
     }
-          
-
-   
 
     class Program
     {
