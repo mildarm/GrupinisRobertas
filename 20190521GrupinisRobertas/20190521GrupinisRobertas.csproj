@@ -43,9 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Console.cs" />
+
+    <Compile Include="Kompiuteris.cs" />
+
+
+    
+
+    <Compile Include="duombaze.cs" />
+
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+
     <Compile Include="Ranka.cs" />
+
+    <Compile Include="Stakles.cs" />
+
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
