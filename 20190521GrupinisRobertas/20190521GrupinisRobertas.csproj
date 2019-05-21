@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Console.cs" />
     <Compile Include="Kompiuteris.cs" />
+=======
+
+>>>>>>> d224b1f699685615496fed39c4f89f7f6d56d42e
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
