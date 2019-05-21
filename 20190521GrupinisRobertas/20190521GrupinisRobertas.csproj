@@ -45,10 +45,13 @@
   <ItemGroup>
 <<<<<<< HEAD
     <Compile Include="Console.cs" />
+<<<<<<< HEAD
     <Compile Include="Kompiuteris.cs" />
 =======
 
 >>>>>>> d224b1f699685615496fed39c4f89f7f6d56d42e
+=======
+>>>>>>> parent of 57d034e... Update 20190521GrupinisRobertas.csproj
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
