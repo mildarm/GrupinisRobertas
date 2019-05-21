@@ -19,7 +19,6 @@ namespace _20190521GrupinisRobertas
         void SiustiDuomenis();// Siuncia i DB
         void DuomenuTipas();// 
     }
-          
 
    
 
