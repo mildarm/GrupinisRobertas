@@ -20,7 +20,6 @@ namespace _20190521GrupinisRobertas
         void DuomenuTipas();// 
     }
 
-   
 
     public class Kompiuteris
     {
