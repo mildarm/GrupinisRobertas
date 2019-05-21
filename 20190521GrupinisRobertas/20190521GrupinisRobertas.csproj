@@ -43,23 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of b9d69a3... Update 20190521GrupinisRobertas.csproj
     <Compile Include="Console.cs" />
 
     <Compile Include="Kompiuteris.cs" />
-<<<<<<< HEAD
 
-    <Compile Include="Console.cs" />
 
-=======
+    
+
     <Compile Include="duombaze.cs" />
->>>>>>> parent of 6263137... Merge branch 'master' into master
-=======
->>>>>>> parent of b9d69a3... Update 20190521GrupinisRobertas.csproj
+
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stakles.cs" />
