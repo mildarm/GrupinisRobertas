@@ -20,6 +20,7 @@ namespace _20190521GrupinisRobertas
         void DuomenuTipas();// 
     }
 
+
     class CsvFailas : IDuombaze
     {
         public void DuomenuTipas()
