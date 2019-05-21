@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Console.cs" />
 <<<<<<< HEAD
     <Compile Include="Kompiuteris.cs" />
@@ -52,6 +53,9 @@
 >>>>>>> d224b1f699685615496fed39c4f89f7f6d56d42e
 =======
 >>>>>>> parent of 57d034e... Update 20190521GrupinisRobertas.csproj
+=======
+    <Compile Include="Console.cs" />
+>>>>>>> parent of d224b1f... Merge pull request #2 from egibag/master
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
