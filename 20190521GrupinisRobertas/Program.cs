@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _20190521GrupinisRobertas
 {
-    interface IDuombaze
+    public interface IDuombaze
     {
         void GautiDuomenis(); // Gauna duomenis is DB
         void SiustiDuomenis();// Siuncia i DB
@@ -19,14 +19,33 @@ namespace _20190521GrupinisRobertas
         void SiustiDuomenis();// Siuncia i DB
         void DuomenuTipas();// 
     }
-          
 
-   
+
+    class CsvFailas : IDuombaze
+    {
+        public void DuomenuTipas()
+        {
+            Console.WriteLine(".csv failas");
+        }
+
+        public void GautiDuomenis()
+        {
+            Console.WriteLine("Siunciu duomenis");
+        }
+
+        public void SiustiDuomenis()
+        {
+            Console.WriteLine("Gaunu duomenis");
+        }
+
+    }
 
     class Program
     {
         static void Main(string[] args)
         {
+            Kompiuteris pc = new Kompiuteris(new CsvFailas());
+            pc.Veiksmas();
         }
     }
 }
